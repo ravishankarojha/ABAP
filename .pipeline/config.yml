@@ -20,4 +20,4 @@ stages:
     atcConfig: 'atcConfig.yml'
 steps:
   cloudFoundryDeleteService:
-    cfDeleteServiceKeys: true
+    cfDeleteServiceKeys: false
