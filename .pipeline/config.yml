@@ -11,13 +11,12 @@ stages:
     cfServiceKeyConfig: 'serviceKey.json'
   Clone Repositories:
     repositoryNames: ['/DMO/SWC']
+    abapCredentialsId: 'cfCredentialsId'
     cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
     cfOrg: '404651b2trial'
     cfSpace: 'dev'
     cfServiceInstance: 'atc_system'
-    cfServiceKey: 'SAP_COM_0510'
-    Username : 'S0018283654'
-    Password : 'F7FC91@}'
+    cfServiceKeyName: 'JENKINS_SAP_COM_0510'
   ATC:
     atcConfig: 'atcConfig.yml'
 steps:
