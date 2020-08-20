@@ -1,7 +1,7 @@
 general:
   cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
-  cfOrg: 'HCL America Solutions Inc_HCLABAPNEW'
-  cfSpace: 'ABAPSPACE'
+  cfOrg: '404651b2trial'
+  cfSpace: 'dev'
   cfCredentialsId: 'cfAuthentification'
   cfServiceInstance: 'atc_system'
   cfServiceKeyName: 'JENKINS_SAP_COM_0510'
@@ -12,12 +12,12 @@ stages:
   Clone Repositories:
     repositoryNames: ['/DMO/SWC']
     cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
-    cfOrg: 'HCL America Solutions Inc_HCLABAPNEW'
-    cfSpace: 'ABAPSPACE'
+    cfOrg: '404651b2trial'
+    cfSpace: 'dev'
     cfServiceInstance: 'atc_system'
     cfServiceKeyName: 'JENKINS_SAP_COM_0510'
   ATC:
     atcConfig: 'atcConfig.yml'
 steps:
   cloudFoundryDeleteService:
-    cfDeleteServiceKeys: true
+    cfDeleteServiceKeys: false
