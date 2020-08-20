@@ -1,7 +1,7 @@
 ---
     create-services:
     - name:   "atc_system"
-      broker: "abap"
+      broker: "abap-trial"
       plan:   "16_abap_64_db"
       parameters: "{ \"admin_email\" : \"user@example.com\", \"description\" : \"ATC System\" }"
     
