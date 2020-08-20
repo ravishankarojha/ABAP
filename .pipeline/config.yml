@@ -11,7 +11,7 @@ stages:
     cfServiceKeyConfig: 'serviceKey.json'
   Clone Repositories:
     repositoryNames: ['/DMO/SWC']
-    cfServiceKey: 'SAP_COM_0510'
+    cfServiceKey: 'JENKINS_SAP_COM_0510'
   ATC:
     atcConfig: 'atcConfig.yml'
 steps:
