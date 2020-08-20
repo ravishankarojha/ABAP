@@ -11,7 +11,8 @@ stages:
     cfServiceKeyConfig: 'serviceKey.json'
   Clone Repositories:
     repositoryNames: ['/DMO/SWC']
-    abapCredentialsId: 'cfAuthentification'
+    cfServiceKey : 'SAP_COM_0510'
+    abapCredentialsId: 'abapCredentialsId'
   ATC:
     atcConfig: 'atcConfig.yml'
 steps:
