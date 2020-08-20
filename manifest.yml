@@ -3,5 +3,5 @@
     - name:   "atc_system"
       broker: "abap-trial"
       plan:   "shared"
-      parameters: "{\"email\" : \"ravi.oj@hcl.com\", \"description\" : \"ATC System\" }"
+      parameters: "{\"email\" : \"vikas.goyal@hcl.com\", \"description\" : \"ATC System\" }"
     
