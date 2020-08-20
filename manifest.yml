@@ -2,6 +2,6 @@
     create-services:
     - name:   "atc_system"
       broker: "abap-trial"
-      plan:   "16_abap_64_db"
+      plan:   "shared"
       parameters: "{ \"admin_email\" : \"user@example.com\", \"description\" : \"ATC System\" }"
     
