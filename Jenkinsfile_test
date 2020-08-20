@@ -56,10 +56,4 @@ pipeline {
             }
         }
     }
-    // defines one or more additional steps that are run upon the completion of a Pipeline’s or stage’s run
-    post {
-        failure {
-            ...
-        }
-    }
 }
