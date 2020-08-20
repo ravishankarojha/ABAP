@@ -11,10 +11,15 @@ stages:
     cfServiceKeyConfig: 'serviceKey.json'
   Clone Repositories:
     repositoryNames: ['/DMO/SWC']
-    cfServiceKey : 'SAP_COM_0510'
-    abapCredentialsId: 'abapCredentialsId'
+    cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+  cfOrg: '404651b2trial'
+  cfSpace: 'dev'
+  cfServiceInstance: 'atc_system'
+       CfServiceKey: 'SAP_COM_0510'
+         Username : 'S0018283654'
+         Password : 'F7FC91@}'
   ATC:
     atcConfig: 'atcConfig.yml'
 steps:
   cloudFoundryDeleteService:
-    cfDeleteServiceKeys: false
+    cfDeleteServiceKeys: true
