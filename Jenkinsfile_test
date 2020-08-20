@@ -37,7 +37,7 @@ pipeline {
                     script: this,
                     repositoryNames: ['/ITAPC1/I_CURRENCY'],
                     cfServiceKey: 'SAP_COM_0510'
-                    abapCredentialsId: 'abapCredentialsId',
+                    abapCredentialsId: 'abapCredentialsId'
                     host: 'd6d93105-6c7a-46b2-8ba3-d0debc384c6a.abap.eu10.hana.ondemand.com'
                 )
             }
