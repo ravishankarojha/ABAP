@@ -24,7 +24,7 @@ pipeline {
             steps {
                 cloudFoundryCreateServiceKey(
                     script : this,
-                    cfServiceKeyName: 'SAP_COM_0510',
+                    cfServiceKeyName: 'JENKINS_SAP_COM_0510',
                     cfServiceKeyConfig: '{ \"scenario_id\": \"SAP_COM_0510\", \"type\": \"basic\" }',
                 )
             }
