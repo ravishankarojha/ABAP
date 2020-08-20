@@ -1,7 +1,7 @@
 ---
     create-services:
     - name:   "atc_system"
-      broker: "abap"
-      plan:   "16_abap_64_db"
-      parameters: "{\"admin_email\" : \"vikas.goyal@hcl.com\", \"description\" : \"ATC System\" }"
+      broker: "abap-trial"
+      plan:   "shared"
+      parameters: "{\"email\" : \"vikas.goyal@hcl.com\", \"description\" : \"ATC System\" }"
     
