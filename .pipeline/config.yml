@@ -11,6 +11,8 @@ stages:
     cfServiceKeyConfig: 'serviceKey.json'
   Clone Repositories:
     repositoryNames: ['/DMO/SWC']
+    abapCredentialsId: 'abapCredentialsId',
+    host: '1234-abcd-5678-efgh-ijk.abap.eu10.hana.ondemand.com'
   ATC:
     atcConfig: 'atcConfig.yml'
 steps:
