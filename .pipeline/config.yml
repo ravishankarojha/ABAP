@@ -16,8 +16,8 @@ stages:
     cfSpace: 'dev'
     cfServiceInstance: 'atc_system'
     cfServiceKey: 'SAP_COM_0510'
-          Username : 'S0018283654'
-          Password : 'F7FC91@}'
+    Username : 'S0018283654'
+    Password : 'F7FC91@}'
   ATC:
     atcConfig: 'atcConfig.yml'
 steps:
