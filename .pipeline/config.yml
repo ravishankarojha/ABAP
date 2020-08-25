@@ -12,12 +12,7 @@ stages:
   Clone Repositories:
     repositoryNames: ['YABC']
     abapCredentialsId: 'cfCredentialsId'
-    cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
-    cfOrg: '404651b2trial'
-    cfSpace: 'dev'
-    cfServiceInstance: 'atc_system'
-    cfServiceKeyName: 'JENKINS_SAP_COM_0510'
-    cfServiceKey: 'SAP_COM_0510'
+    
   ATC:
     atcConfig: 'atcConfig.yml'
 steps:
