@@ -10,8 +10,9 @@ stages:
     cfServiceManifest: 'manifest.yml'
     cfServiceKeyConfig: 'serviceKey.json'
   Clone Repositories:
-    repositoryNames: ['YABC']
-    abapCredentialsId: 'cfCredentialsId'
+    repositoryNames: ['/DMO/GIT_REPOSITORY']
+    abapCredentialsId: 'abapCredentialsId'
+    host: 'd6d93105-6c7a-46b2-8ba3-d0debc384c6a.abap-web.eu10.hana.ondemand.com'
     
   ATC:
     atcConfig: 'atcConfig.yml'
