@@ -10,7 +10,7 @@ stages:
     cfServiceManifest: 'manifest.yml'
     cfServiceKeyConfig: 'serviceKey.json'
   Clone Repositories:
-    repositoryNames: ['/ravishankarojha/DEMO-HCL']
+    repositoryNames: ['/DMO/SWC']
     abapCredentialsId: 'cfCredentialsId'
     cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
     cfOrg: '404651b2trial'
